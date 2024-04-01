@@ -42,6 +42,7 @@ def Go():
             solution2 = format(solution_state.solver.eval(passwd2), 'x')
             solution = solution0 + " " + solution1 + " " + solution2
             print("[+] Success! Solution is: {}".format(solution))
+            # print(simgr.found[0].posix.dumps(0))
     else:
         raise Exception('Could not find the solution')
     
